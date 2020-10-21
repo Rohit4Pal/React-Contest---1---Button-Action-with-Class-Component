@@ -9,7 +9,8 @@ class App extends Component {
     render() {
     	return(
     		<div id="main">
-				{ /* Do not remove this main div!! */ }
+		{ /* Do not remove this main div!! */ }
+		<button id="click" onlick="handleClick()">Click Me</button>
     		</div>
     	);
     }
